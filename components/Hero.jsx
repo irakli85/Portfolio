@@ -30,6 +30,8 @@ const Hero = () => {
                         </Link>
                         <Button variant='secondary' className='gap-x-2'>Download CV<Download size={18}/></Button>
                     </div>
+                    {/* Socials */}
+                    <Socials/>
                 </div>
                  {/* image */}
                  <div className="hidden xl:flex relative">image</div>
