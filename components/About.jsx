@@ -223,8 +223,14 @@ const About = () => {
                                     </div>
                                 </div>
                             </TabsContent>
+                            {/* skills */}
                             <TabsContent value='skills'>
-                                skills
+                                <div className="text-center xl:text-left">
+                                    <h3 className="h3 mb-4">Tools I Use Everyday</h3>
+                                    <div>
+                                        <h4>Skills</h4>
+                                    </div>
+                                </div>
                             </TabsContent>
                         </div>
                     </Tabs>
